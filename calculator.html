@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Codystar:wght@400&display=swap" rel="stylesheet"> 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+<link href="calculator.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="app" class="app">
+<v-app>
+        <span class="box"><span v-for="i in data" class="box_data" v-bind:style="{ right: pos + 'px' }" >{{data[i-1]}}</span></span>
+        <button class="one" @click="place_num(1)">1</button>
+        <button class="two" @click="place_num(2)" >2</button>
+        <button class="three" @click="place_num(3)" >3</button>
+        <button class="four" @click="place_num(4)" >4</button>
+        <button class="five" @click="place_num(5)" >5</button>
+        <button class="six" @click="place_num(6)" >6</button>
+        <button class="seven" @click="place_num(7)" >7</button>
+        <button class="eight" @click="place_num(8)" >8</button>
+        <button class="nine" @click="place_num(9)" >9</button>
+        <button class="zero" @click="place_num(0)" >0</button>
+        <button class="point" >.</button>
+        <button class="equals" >=</button>
+        <button class="plus" >+</button>
+        <button class="minus" >-</button>
+        <button class="times" >x</button>
+</v-app>
+    
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.5/es6-shim.js"></script>
+  <script src= "calculator.js"></script>
+  </script>
+</body>
+</html>

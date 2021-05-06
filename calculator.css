@@ -1,0 +1,225 @@
+:root {
+    --pos: {{ pos }};
+}
+
+#app{
+	position: relative;
+}
+
+div {
+    position: relative;
+    top: 50px;
+    left: 180px;
+}
+
+.box {
+    border-right: solid 1px;
+    border-left: solid 1px;
+    border-top: solid 1px;
+    height: 40px;
+    width: 237px;
+}
+
+.box_data {
+    font-size: 29px;
+    color: grey;
+    position: relative;
+}
+
+.one {
+  background-color: #479ba8;
+  width: 60px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border: solid black 0.5px;
+}
+
+.two {
+  background-color: #479ba8;
+  width: 60px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+  border: solid black 0.5px;
+  left: 59px;
+  bottom: 40px;
+}
+
+.three {
+  background-color: #479ba8;
+  width: 60px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border: solid black 0.5px;
+  position: relative;
+  left: 118px;
+  bottom: 80px;
+}
+
+.four {
+  background-color: #479ba8;
+  width: 60px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border: solid black 0.5px;
+  position: relative;
+  bottom: 81px;
+}
+
+.five {
+  background-color: #479ba8;
+  width: 60px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border: solid black 0.5px;
+  position: relative;
+  left: 59px;
+  bottom: 121px;
+}
+
+.six {
+  background-color: #479ba8;
+  width: 60px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border: solid black 0.5px;
+  position: relative;
+  left: 118px;
+  bottom: 161px;
+}
+
+.seven {
+  background-color: #479ba8;
+  width: 60px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  border-left: solid black 1px;
+  cursor: pointer;
+  position: relative;
+  bottom: 161px;
+}
+
+.eight {
+  background-color: #479ba8;
+  width: 60px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border-left: solid black 1px;
+  position: relative;
+  left: 59px;
+  bottom: 201px;
+}
+
+.nine {
+  background-color: #479ba8;
+  width: 60px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border-left: solid black 0.5px;
+  border-right: solid black 0.5px;
+  position: relative;
+  left: 118px;
+  bottom: 241px;
+}
+
+.zero {
+  background-color: #479ba8;
+  width: 119px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border: solid black 0.5px;
+  position: relative;
+  bottom: 241px;
+}
+
+.point {
+  background-color: #479ba8;
+  width: 59px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border-right: solid black 1px;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  position: relative;
+  left: 119px;
+  bottom: 281px;
+}
+
+.equals {
+  background-color: #479ba8;
+  width: 59px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border-right: solid black 1px;
+  border-top: solid black 1px; 
+  border-bottom: solid black 1px;
+  position: relative;
+  left: 178px;
+  bottom: 321px;
+}
+
+.plus {
+  background-color: #479ba8;
+  width: 59px;
+  height: 42px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border-right: solid black 1px;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  position: relative;
+  left: 178px;
+  bottom: 402px;
+}
+
+.minus {
+  background-color: #479ba8;
+  width: 59px;
+  height: 39px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border-right: solid black 1px;
+  border-top: solid black 1px;
+  position: relative;
+  left: 178px;
+  bottom: 483px;
+}
+
+.times { 
+  background-color: #479ba8;
+  width: 59px;
+  height: 39px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border-right: solid black 1px;
+  border-top: solid black 1px;
+  position: relative;
+  left: 178px;
+  bottom: 561px;
+}
