@@ -11,7 +11,8 @@
 
 <div id="app" class="app">
 <v-app>
-        <span class="box"><span v-for="i in data" class="box_data" v-bind:style="{ right: pos + 'px' }" >{{data[i-1]}}</span></span>
+        <span class="box"><span v-if="!submitted" class="box_data" v-bind:style="{ right: pos + 'px' }" >{{vis_res}}</span><span  v-else-if="submitted" class="box_data" v-bind:style="{ right: pos + 'px' }" >{{return_ans()}}</span>
+        <span v-if="submitted" v-bind:style="{ right: pos_ans + 'px' }" class="ans">{{past_res}}</span></span>
         <button class="one" @click="place_num(1)">1</button>
         <button class="two" @click="place_num(2)" >2</button>
         <button class="three" @click="place_num(3)" >3</button>
@@ -22,11 +23,12 @@
         <button class="eight" @click="place_num(8)" >8</button>
         <button class="nine" @click="place_num(9)" >9</button>
         <button class="zero" @click="place_num(0)" >0</button>
-        <button class="point" >.</button>
-        <button class="equals" >=</button>
-        <button class="plus" >+</button>
-        <button class="minus" >-</button>
-        <button class="times" >x</button>
+        <button class="point" @click="place_num('.')" >.</button>
+        <button class="equals" @click="submit()" >=</button>
+        <button class="plus" @click="place_num('+')" >+</button>
+        <button class="minus"  @click="place_num('-')" >-</button>
+        <button class="times"  @click="place_num('*')" >&#215;</button>
+        <button class="clear"  @click="clear()" >Cl</button>
 </v-app>
     
 </div>

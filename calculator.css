@@ -1,6 +1,11 @@
 :root {
     --pos: {{ pos }};
+    --pos_ans: {{ pos_ans }};
 }
+button {
+    outline: none;
+}
+
 
 #app{
 	position: relative;
@@ -9,14 +14,15 @@
 div {
     position: relative;
     top: 50px;
-    left: 180px;
+    left: 200px;
+    transform: scale(1.1);
 }
 
 .box {
     border-right: solid 1px;
     border-left: solid 1px;
     border-top: solid 1px;
-    height: 40px;
+    height: 50px;
     width: 237px;
 }
 
@@ -24,6 +30,14 @@ div {
     font-size: 29px;
     color: grey;
     position: relative;
+    top: 10px;
+}
+
+.ans {
+    font-size: 15px;
+    color: rgb(181, 184, 189);
+    position: relative;
+    bottom: 15px;
 }
 
 .one {
@@ -141,7 +155,7 @@ div {
 
 .zero {
   background-color: #479ba8;
-  width: 119px;
+  width: 60px;
   height: 40px;
   color: white;
   font-size: 30px;
@@ -149,6 +163,19 @@ div {
   border: solid black 0.5px;
   position: relative;
   bottom: 241px;
+}
+
+.clear {
+  background-color: #479ba8;
+  width: 60px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border: solid black 0.5px;
+  position: relative;
+  bottom: 481px;
+  left: 59px;
 }
 
 .point {
@@ -223,3 +250,5 @@ div {
   left: 178px;
   bottom: 561px;
 }
+
+
