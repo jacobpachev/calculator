@@ -1,1 +1,1 @@
-Simple calculator app developed in Vanilla JS
+Simple calculator app developed using Vue JS
